@@ -7,22 +7,23 @@ import org.springframework.security.config.annotation.web.configuration.EnableWe
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration;
 import org.springframework.security.web.SecurityFilterChain;
 
-
-@Configuration
-
-public class SecurityConfig {
-	
-	/*
-	 * @Bean public SecurityFilterChain securityFilterChain(HttpSecurity http)
-	 * throws Exception {
-	 * http.csrf().disable().authorizeHttpRequests().requestMatchers(
-	 * "/getAllproduct"). permitAll().anyRequest().authenticated().
-	 * 
-	 * and().formLogin();
-	 * 
-	 * return http.build(); }
-	 */
-	 
-
-
-}
+/*
+ * @Configuration
+ * 
+ * public class SecurityConfig {
+ * 
+ * 
+ * @Bean public SecurityFilterChain securityFilterChain(HttpSecurity http)
+ * throws Exception {
+ * http.csrf().disable().authorizeHttpRequests().requestMatchers(
+ * "/getAllproduct"). permitAll().anyRequest().authenticated().
+ * 
+ * and().formLogin();
+ * 
+ * return http.build(); }
+ * 
+ * 
+ * 
+ * 
+ * }
+ */
